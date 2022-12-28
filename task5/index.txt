@@ -1,0 +1,15 @@
+    Header => exist
+    Nav => exist
+    Main => exist
+    Aside => exist
+    Picture => exist
+    Figure => exist
+    Footer => exist
+    FigCaption => exist
+    Section => exist
+    Command => exist
+    Ruby => exist
+    Data => exist
+    Article => exist
+    Install => don't exist
+    Text  => don't exist

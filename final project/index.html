@@ -1,0 +1,115 @@
+<!dOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <header>
+            <h1>LOGO</h1>
+            <ul>
+                <a href="#"><li>HOME</li></a>
+                <a href="#"><li>ABOUT</li></a>
+                <a href="#"><li>SIGN UP</li></a>
+                <a href="#"><li>SIGN IN</li></a>
+                <a href="#"><li>CONTACT Us</li></a>
+            </ul>
+            <h2>Welcome To My First Project Using HTML Only</h2>
+        </header>
+        <hr>
+        <section>
+            <h3>Please Sign Up</h3>
+            <form action="index2.html" method="post">
+                <div>
+                    <label for="Username">Username</label>
+                    <br>
+                    <input id="Username" type="text" name="username" required placeholder="Type Your Name" autofoces>
+                </div>  
+                <br>
+                <div>
+                    <label for="Password">Password</label>
+                    <br>
+                    <input id="Password" type="password" name="password" required placeholder="Password Max Length is 20" minlength="8" maxlength="20">
+                </div>                
+                <br>
+                <div>
+                    <label for="Email">Email</label>
+                    <br>
+                    <input id="Email" type="email" name="email" required placeholder="example: O@nn.com">
+                </div>
+                <br>
+                <div>
+                    <label for="Bdate">Birthdate</label>
+                    <input id="Bdate" type="date" name="bdate"> 
+                </div>
+                <br>
+                <div>
+                    <label for="File">Upload Your Picture</label>
+                    <input id="File" type="file" name="file">
+                </div>
+                <div>
+                    <p>What is your operating system</p>
+                    <input id="win" type="radio" name="os" value="win" checked>
+                    <label for="win">Windows</label>
+                    <br>
+                    <input id="mac" type="radio" name="os" value="mac">
+                    <label for="mac">Mac</label>
+                    <br>
+                    <input id="linux" type="radio" name="os" value="linux">
+                    <label for="linux">liunx</label>
+                </div>
+                <br>
+                <div>
+                    <p>What is your skills</p>
+                    <input id="skill1" type="checkbox" name="skill" value="PS" checked>
+                    <label for="skill1">Problem Solving</label>
+                    <br>
+                    <input id="skill2" type="checkbox" name="skill" value="GL">
+                    <label for="skill2">Good Listener</label>
+                    <br>
+                    <input id="skill3" type="checkbox" name="skill" value="WUP">
+                    <label for="skill3">Work Under Pressure</label>
+                </div>
+                <br>
+                <div>
+                    <label for="country">Where Are You From</label>
+                    <select id="country" name="country">
+                        <optgroup label="Asia">                        
+                            <option>UAE</option>
+                            <option>Qatar</option>
+                            <option>Kuwait</option>
+                        </optgroup>
+                        <optgroup label="Africa">
+                            <option selected>Egypt</option>
+                            <option>Morpcco</option>
+                            <option>Tunisia</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Choose the most comfortable language</label>
+                    <input list="languages" name="language">
+                    <datalist id="languages">
+                        <option value="Arabic">
+                        <option value="English">
+                        <option value="Spanish">
+                        <option value="French">
+                    </datalist>
+                </div>
+                <br>
+                <div>
+                    <label for="number">Choose A Number From 0 To 100</label>
+                    <input id="number" type="number" name="number" min="0" max="100">
+                </div>
+                <div>
+                    <input type="submit" value="Log In">
+                    <input type="reset" value="clear">
+                </div>
+            </form>
+        </section>
+        <hr>
+        <footer>
+            <p>This Website Made By Ahmed Mohamed 2022 &copy;</p>
+        </footer>
+    </body>
+</html>
